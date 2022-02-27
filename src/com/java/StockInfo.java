@@ -2,14 +2,14 @@ package com.java;
 
 public class StockInfo {
 	private String StockName;
-	private Double NumberOfShare;
+	private int NumberOfShare;
 	private Double sharePrice;
 
 	public StockInfo() {
 		super();
 	}
 
-	public StockInfo(String stockName, Double numberOfShare, Double sharePrice) { //// constructor
+	public StockInfo(String stockName, int numberOfShare, Double sharePrice) { //// constructor
 		super();
 		this.StockName = stockName;
 		this.NumberOfShare = numberOfShare;
@@ -24,11 +24,11 @@ public class StockInfo {
 		this.StockName = stockName;
 	}
 
-	public Double getNumberOfShare() {
+	public int getNumberOfShare() {
 		return NumberOfShare;
 	}
 
-	public void setNumberOfShare(Double numberOfShare) {
+	public void setNumberOfShare(int numberOfShare) {
 		this.NumberOfShare = numberOfShare;
 	}
 
